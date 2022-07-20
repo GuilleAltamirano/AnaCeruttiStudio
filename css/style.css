@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --alt-black: #000000;
+    --alt-white: #FFFCF6;
+    --alt-beige: #D3C9BD;
+    --bone-white: #FFFDF4;
+    --alt-arena: #A59D94;
+}
+
+body {
+    background-color: var(--alt-black);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* HEADER */
+header div {
+    border-bottom: 1px solid white;
+    height: 49px;
+}
+
+header div .textHeader {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: var(--alt-white);
+}
+
+/* NavBar 1 */
+nav div {
+    display: flex;
+}
+
+nav div .textLogo {
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    font-size: 35.33px;
+    line-height: 20.19px;
+    color: var(--bone-white);
+}
+
+nav div .textLogo:hover, .textLogo:link, 
+        .textLogo:visited, .textLogo:focus,
+        .textLogo:active {
+    color: var(--bone-white);
+}
+
+nav div .textLogo span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 27.2566px;
+    line-height: 20px;
+}
+
+.socialGap {
+    gap: 30px;
+    position: absolute;
+    padding-right: 60px;
+}
+
+.socialSize {
+    width: 24px;
+    height: 24px;
+}
+
+.socialSizeGm {
+    width: 24px;
+    height: 18px;
+}
+
+
+/* NavBar 2 */
+.divLinks {
+    height: 76px;
+}
+
+.divLinks a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--bone-white);
+}
+
+.divLinks .nav-link:hover, .nav-link:link, 
+.nav-link:visited {
+    color: var(--bone-white);
+}
+
+.divLinks .nav-link:active, .nav-link:focus {
+    border-bottom: 1px solid var(--bone-white);
+}
+
+.navGap {
+    display: flex;
+    gap: 103px;
+}
+
+/* CARRUSEL */
+/* ---------- */
+
+/* SECTION */
+article div .pruebaTexto {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 130%;
+    color: var(--bone-white);
+}
+
+.sectionHome {
+    padding: 0px 20px;
+}
+
+section img {
+    width: 609px;
+    height: 423px;
+}
+
+section h3 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white)
+}
+
+.sectionHome p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--bone-white);
+    padding: 0px 40px;
+}
+
+section a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--bone-white);
+    text-decoration: none;
+}
+
+section  a:hover, 
+a:link,  a:visited, 
+a:focus, a:active {
+    color: var(--bone-white);
+}
+
+/* ARTICLE TEXT INSTAGRAM */
+article h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 130%;
+    color: var(--alt-arena);
+}
+
+/* FOOTER */
+.borderBottom {
+    border-bottom: 1px solid var(--alt-arena);
+}
+
+.logoFooter {
+    width: 134px;
+    height: 34px;
+}
+
+.linksFooter ul {
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+}
+
+.textEnd p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    color: var(--alt-arena);
+}
+
+/* PRODUCTOS > SECTION */
+.sectionProductos div p {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.sectionProductos img {
+    width: 1240px;
+    height: 506px;
+}
+
+.sectionProductos .btnVerTodo {
+    background: #A59D94;
+    border-radius: 6px;
+    padding: 10px 10px;
+    width: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionProductos .btnVerTodo a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--alt-black);
+    text-align: center;
+}
+
+.textLogo img {
+    width: 229px;
+    height: 58px;
+}
+
+/* NUESTRO PROCESO */
+.sectionProceso h1 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.sectionProceso p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.paddingTituloCatalogo {
+    padding-left: 50px;
+}
+
+.paddingTituloCatalogo p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--bone-white);
+    padding-top: 19.25px;
+}
+
+.tituloCatalogo h6 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.imagenCatalogo img {
+    width: 333px;
+    height: 334.1px;
+}
+
+.gridCatalogo {
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content: center;
+    margin-bottom: 139px;
+}
+
+/* SOBRE NOSOTROS */
+.sectionNosotros img {
+    width: 510px;
+    height: 688px;
+    border-radius: 20px;
+}
+
+.sectionNosotros h4 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.sectionNosotros p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+}
+
+.articleNosotros div h4 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.articleNosotros div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+}
+
+/* SOBRE NOSOTROS> CARRUSEL ARTICLE */
+.carruselTarjetas {
+    width: 100%;
+}
+
+/* SOBRE NOSOTROS> ARTICLE TEXT */
+.articleText h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+}
+
+.articleText p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+    padding-bottom: 30px;
+}
+
+/* SOBRE NOSOTROS> CARRUSEL FINAL */
+.carruselFinal {
+    width: 1250px;
+}
+
+.carruselFinal img {
+    width: 1240px;
+    height: 506px;
+}
+
+/* SE PARTE */
+.sectionSeParte h3 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+    margin-bottom: 48px;
+}
+
+.sectionSeParte img {
+    width: 556.56px;
+    height: 383.12px;
+}
+
+.articleSeParte {
+    margin-bottom: 71px;
+}
+
+.articleSeParte p, span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--bone-white);
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+.sectionSeParteProyecto {
+    margin-top: 197px;
+}
+
+.sectionSeParteProyecto h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+.sectionSeParteProyecto img {
+    width: 280px;
+    height: 180px;
+}
+
+.sectionSeParteProyecto p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--bone-white);
+}
+
+/* ESTERNO */
+.sectionEsterno h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+    padding-bottom: 21px;
+}
+
+.sectionEsterno p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+}
+
+.esternoGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    padding-top: 67px;
+}
+
+.esternoGrid img {
+    width: 369px;
+    height: 474px;
+}
+
+.esternoGrid p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--bone-white);
+}
+
+/* PENUMBRA */
+.sectionPenumbra h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+    padding-bottom: 21px;
+}
+
+.sectionPenumbra p, span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+}
+
+.penumbraGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    padding-top: 67px;
+    row-gap: 40px;
+}
+
+.penumbraGrid img {
+    width: 369px;
+    height: 474px;
+}
+
+.penumbraGrid p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--bone-white);
+}
+
+.textoPenumbra {
+    padding: 195px 0px;
+}
+
+.textoPenumbra p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--bone-white);
+}
+
+/* DENTRO */
+.sectionDentro h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--bone-white);
+    padding-bottom: 21px;
+}
+
+.sectionDentro p, span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+    color: var(--bone-white);
+}
+
+.dentroGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    padding-top: 67px;
+    padding-bottom: 186px;
+}
+
+.dentroGrid img {
+    width: 369px;
+    height: 474px;
+}
+
+/* PRODUCTOS INDIVIDUAL */
+.sectionProductosIndividual {
+    background-color: #EEEEEE;
+}
+
+.sectionProductosIndividual span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 130%;
+    color: #998E81;
+}
+
+.sectionProductosIndividual h3 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.gridProductoIndividual {
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    gap: 72px;
+    padding-top: 28px;
+}
+
+.primeraColumnaGrid img {
+    width: 103px;
+    height: 133px;
+}
+
+.segundaColumnaGrid {
+    width: 505px;
+}
+
+.segundaColumnaGrid img {
+    width: 505px;
+    height: 639px;
+}
+
+.terceraColumnaGrid h3 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    padding-bottom: 22px;
+}
+
+.terceraColumnaGrid p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4B5563;
+    margin: 0;
+    padding-right: 40px;
+}
+
+.botonComprarIg {
+    margin-top: 31px;
+}
+
+.terceraColumnaGrid a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    width: 216px;
+    padding: 10px 20px;
+    height: 40px;
+    left: 867px;
+    top: 635px;
+    background: #000000;
+    border-radius: 6px;
+}
+
+.metodos {
+    margin-top: 102px;
+}
+
+.gridPagoEnvio {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mediosEnvio, .metodosPago {
+    padding: 0px 60px;
+}
+
+.mediosEnvio h3, .metodosPago h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    border-bottom: 1px solid black;
+}
+
+.mediosEnvio h5, .metodosPago h5 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.mediosEnvio p, .metodosPago p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 159%;
+}
+
+.mediosEnvio p strong{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 159%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    
+    /* Todas las paginas */
+    .imgResponsive {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footerMenuResponsive {
+        font-size: 70%;
+    }
+
+    .divLinks {
+        height: max-content;
+    }
+
+    .divLinks a {
+        font-size: 10px;
+    }
+
+    /* PRODUCTOS > SECTION */
+    .sectionProductos div p {
+        font-size: 15px;
+    }
+
+    .sectionProductos img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Nuestro proceso */
+
+    .imagenCatalogo img {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* SOBRE NOSOTROS */
+    .sectionNosotros img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sectionNosotros h4 {
+        font-size: 20px;
+    }
+
+    .sectionNosotros p {
+        font-size: 12px;
+    }
+
+    /* Se parte */
+
+    .divSectionParteResponsive {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .sectionSeParte img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    /* Header */
+
+    .navResponsiveHeader {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 20px;
+    }
+
+    nav div .textLogo {
+        font-size: 20px;
+    }
+    
+    nav div .textLogo span {
+        font-size: 15px;
+    }
+
+    .socialSize {
+        width: 50%;
+        height: 50%;
+    }
+
+    .socialSizeGm {
+        width: 50%;
+        height: 50%;
+    }
+
+    /* cuepo */
+
+    .sectionHome {
+        display: grid;
+        grid-template-rows: 200px 200px;
+    }
+
+    article div .pruebaTexto {
+        font-size: 15px;
+    }
+    
+    .sectionHome {
+        padding: 0px 20px;
+    }
+    
+    section h3 {
+        font-size: 15px;
+    }
+    
+    .sectionHome p {
+        font-size: 9px;
+        padding: 0px 0px;
+    }
+    
+    section a {
+        font-size: 17px;
+    }
+
+    article h2 {
+        font-size: 15px;
+    }
+
+    /* footer */
+
+    .divFooterResponsive {
+        justify-content: none;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px 50px 50px;
+    }
+
+    .footerRRSS {
+        width: 30px;
+        height: 30px;
+        justify-content: space-between;
+    }
+
+    .divFooterRRSS {
+        width: max-content;
+        justify-content: space-between!important;
+        display: grid!important;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .col-2 {
+        width: max-content;
+    }
+
+    .ulFooterResponsive {
+        display: grid!important;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+
+    .linksFooter ul {
+        justify-content:space-between;
+        gap: 50px;
+        padding: 0;
+    }
+    /* Nuestro proceso */
+
+    /* NUESTRO PROCESO */
+    .sectionProceso h1 {
+        font-size: 30px;
+    }
+
+    .sectionProceso p {
+        font-size: 16.5px;
+    }
+
+    .paddingTituloCatalogo p {
+        font-size: 16px;
+    }
+
+    .tituloCatalogo h6 {
+        font-size: 20px;
+    }
+
+    .imagenCatalogo img {
+        width: 333px;
+        height: 334.1px;
+    }
+
+    .gridCatalogo {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: max-content;
+    }
+
+    /* Sobre Nosotros */
+
+    .divSectionNosotrosResponsive {
+        display: grid !important;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .sectionNosotros img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .col-5 {
+        width: 100%;
+        text-align: center;
+    }
+}
