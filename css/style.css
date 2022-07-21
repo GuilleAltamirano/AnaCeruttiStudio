@@ -761,6 +761,33 @@ article h2 {
         width: 100%;
         height: 100%;
     }
+
+    /* ESTERNO */
+
+    .esternoGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+        padding-top: 47px;
+    }
+
+    /* Penumbra */
+
+    .textoPenumbra {
+        padding: 30px 0px;
+    }
+
+    .penumbraGrid img {
+        width: 200px;
+        height: 300px;
+    }
+
+    /* Dentro */
+
+    .dentroGrid img {
+        width: 200px;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -905,5 +932,62 @@ article h2 {
     .col-5 {
         width: 100%;
         text-align: center;
+    }
+
+    /* ESTERNO */
+    .sectionEsterno h2 {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .sectionEsterno p {
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    .esternoGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        padding-top: 67px;
+    }
+
+    .esternoGrid img {
+        width: 369px;
+        height: 474px;
+    }
+
+    .esternoGrid p {
+        font-size: 15px;
+        line-height: 80%;
+    }
+
+    /* PENUMBRA */
+
+    .penumbraGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+        padding-top: 10px;
+        row-gap: 10px;
+    }
+
+    .penumbraGrid img {
+        width: 369px;
+        height: 474px;
+    }
+
+    /* Dentro */
+    .dentroGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+        padding-top: 67px;
+        padding-bottom: 186px;
+    }
+    
+    .dentroGrid img {
+        width: 369px;
+        height: 474px;
     }
 }
